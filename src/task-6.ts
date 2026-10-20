@@ -1,4 +1,4 @@
-function getFirstElement(arr) {
+function getFirstElement<T>(arr: T[]) {
   return arr[0];
 }
 
